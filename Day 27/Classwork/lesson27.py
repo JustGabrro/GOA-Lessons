@@ -36,7 +36,6 @@
 
 
 
-
 # def manual_min(number_list):
 #     min_value = number_list[0]
 
@@ -52,7 +51,6 @@
 
 # def manual_len(collection):
 #     count = 0
-
 #     for _ in collection:
 #         count = count + 1
     

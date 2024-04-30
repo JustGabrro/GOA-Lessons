@@ -3,7 +3,6 @@
 #         print(i * 2)
 
 # func()
-
 # def welcome(name, lastname):
 #     print("Welcome" + name + lastname)
 

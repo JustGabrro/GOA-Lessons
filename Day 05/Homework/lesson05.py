@@ -5,7 +5,7 @@
 # print(name)
 # print(score)
 
-###################################
+##################################
 
 #   Flight Tracker
 # # Storing the flight number
@@ -20,7 +20,7 @@
 # print(destination)
 # print(distance)
 
-###################################
+##################################
 
 #   It’s Payday!
 # salary = 150000
@@ -31,7 +31,7 @@
 # new_salary = salary + pay_raise
 # print(new_salary)
 
-###################################
+##################################
 
 #   Chatbot v1.0
 # # Ask the user for input and store it in a variable

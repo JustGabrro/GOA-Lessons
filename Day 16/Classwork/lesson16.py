@@ -3,7 +3,7 @@
 #     user_num = int(input("Enter a number: "))
 #     print(user_num * 3)
 
-#              # არგუმენტი ( როდესაც ფუნქციას გამოვიძახებთ )
+#            # არგუმენტი ( როდესაც ფუნქციას გამოვიძახებთ )
 # multiply_by_three(2)
 # multiply_by_three(4)
 # multiply_by_three(6)

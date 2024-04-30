@@ -8,5 +8,5 @@ def find_last_even(numbers_list):
     # თუ ლუწი რიცხვი არ არის ნაპოვნი, დავაბრუნოთ None
     return None
 
-# მაგალითად:
+#   მაგალითად:
 print(find_last_even([1, 2, 3, 4, 5])) 
