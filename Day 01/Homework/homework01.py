@@ -1,4 +1,4 @@
-name = "my name is Gabriel,"
+name = "My name is Gabriel,"
 surname = "my surname is Jakhveladze"
 height = "I am 170cm "
 story = "I joined GOA because i want to increase and upgrade my skills."
