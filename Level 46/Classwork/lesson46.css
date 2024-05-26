@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #9dc4e4, #1ce9eca8);
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.toggle-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.toggle-buttons button {
+    border: none;
+    padding: 10px;
+    flex: 1;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+}
+.toggle-buttons .active {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: #fff;
+}
+.toggle-buttons button:not(.active) {
+    background: #f2f2f2;
+    color: #000;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.signup-button {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signup-button:hover {
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+}
+.login-link {
+    text-align: center;
+    margin-top: 10px;
+}
+.login-link a {
+    color: #0072ff;
+    text-decoration: none;
+}

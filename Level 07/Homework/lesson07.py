@@ -451,5 +451,12 @@ right(110)
 forward(15)
 penup()
 goto(1000,1000)
+pendown()
+
+color("yellow")
+begin_fill()
+circle(90)
+end_fill()
 
 exitonclick()
+
