@@ -1,0 +1,8 @@
+.styled-paragraph {
+    padding: 30px 15px; /* ზემოთ და ქვემოთ 30px, მარცხნივ და მარჯვნივ 15px */
+    width: 400px; /* სიგანე */
+    height: 200px; /* სიმაღლე */
+    border: 5px solid red; /* საზღვარი 5px, წითელი ფერი */
+    background-color: yellow; /* ფონი ყვითელი */
+    margin: 50px 50px 50px 15px; /* ზედა, მარჯვენა და ქვედა მხარეს 50px, მარცხენა მხარე 15px */
+}

@@ -1,0 +1,11 @@
+.unique-borders-paragraph {
+    width: 300px; /* ფიქსირებული სიგანე */
+    height: 300px; /* ფიქსირებული სიმაღლე */
+    padding: 20px; /* პადინგი ყველა მხარეს */
+    margin: 10px 30px; /* ზემოთ და ქვემოთ 10px, მარცხნივ და მარჯვნივ 30px */
+    border-top: 2px solid red; /* ზედა საზღვარი */
+    border-right: 4px dashed green; /* მარჯვენა საზღვარი */
+    border-bottom: 6px dotted blue; /* ქვედა საზღვარი */
+    border-left: 8px double purple; /* მარცხენა საზღვარი */
+    box-sizing: border-box; /* შიდა შიგთავსი და საზღვარი */
+}

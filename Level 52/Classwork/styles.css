@@ -1,3 +1,20 @@
-.body {
-    background-color: aqua;
+.styled-button {
+    background-color: #007bff; /* ლურჯი ფონი */
+    color: white; /* თეთრი ტექსტი */
+    border: none; /* საზღვარი არ აქვს */
+    padding: 10px 20px; /* პადინგი */
+    font-size: 16px; /* შრიფტის ზომა */
+    cursor: pointer; /* კურსორის ნაჩვენებია როგორც მაუსის თითი */
+    transition: background-color 0.3s ease; /* ტრანზიცია ფონის ფერის ცვლილებაზე */
+}
+
+/* მაუსის მოტანის მდგომარეობა */
+.styled-button:hover {
+    background-color: #0056b3; /* მუქი ლურჯი */
+}
+
+/* მაუსის კლიკის მდგომარეობა */
+.styled-button:active {
+    background-color: #003d80; /* კიდევ უფრო მუქი ლურჯი */
+    transform: scale(0.95); /* მასშტაბირება 5% ნაკლები */
 }
