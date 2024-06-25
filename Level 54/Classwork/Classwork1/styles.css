@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: auto;
+    padding: 40px;
+}
+.parent {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 34, 255);
+    border: 2px solid green;
+    color: white;
+    font-size: 40px;
+}

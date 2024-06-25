@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, #0d0221, #281a69);
+    color: #fff;
+    text-align: center;
+}
+
+header nav {
+    padding: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a.signup {
+    padding: 8px 16px;
+    background-color: #1f89ff;
+    border-radius: 4px;
+}
+
+header nav ul li a.signup:hover {
+    background-color: #1667b8;
+}
+
+.hero {
+    padding: 200px;
+}
+
+.hero h1 {
+    font-size: 90px;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    font-size: 16px;
+}
+
+.search-bar button {
+    background-color: #a937ff;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #8c2acc;
+}
+
+.video-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.video-button:hover {
+    text-decoration: underline;
+}
